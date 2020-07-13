@@ -1,0 +1,12 @@
+# 数据库连接信息
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mybatisplusdemo?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: xuyang
+    password: 12345
+
+# 配置mybatis信息
+# entity包路径
+mybatis-plus:
+  type-aliases-package: com.example.mybatisplus.entity
