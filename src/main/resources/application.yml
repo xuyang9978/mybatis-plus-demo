@@ -9,4 +9,4 @@ spring:
 # 配置mybatis信息
 # entity包路径
 mybatis-plus:
-  type-aliases-package: com.example.mybatisplus.entity
+  type-aliases-package: com.example.demo.entity
