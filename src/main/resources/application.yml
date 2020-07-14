@@ -6,7 +6,14 @@ spring:
     username: xuyang
     password: 12345
 
-# 配置mybatis信息
-# entity包路径
+# 配置日志
 mybatis-plus:
-  type-aliases-package: com.example.demo.entity
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 配置逻辑删除（如果默认值相同可以不需要配置）
+#    global-config:
+#      db-config:
+#        logic-delete-field: deleted  # 全局逻辑删除的实体字段名(since 3.3.0,配置后可以忽略不配置步骤2)
+#        logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+#        logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
+

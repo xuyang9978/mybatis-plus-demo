@@ -11,7 +11,7 @@
   <groupId>com.example</groupId>
   <artifactId>mybatis-plus-demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>maybatis-plus</name>
+  <name>mybatis-plus</name>
   <description>Demo project for Spring Boot</description>
 
   <properties>
@@ -25,7 +25,7 @@
       <artifactId>spring-boot-starter-thymeleaf</artifactId>
     </dependency>
 
-    <!-- web依赖 -->
+    <!-- web 依赖 -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
@@ -38,7 +38,14 @@
       <version>3.3.2</version>
     </dependency>
 
-    <!-- mysql连接驱动 -->
+    <!-- mybatis-plus 代码生成器 -->
+    <dependency>
+      <groupId>com.baomidou</groupId>
+      <artifactId>mybatis-plus-generator</artifactId>
+      <version>3.3.2</version>
+    </dependency>
+
+    <!-- mysql 连接驱动 -->
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
@@ -51,7 +58,7 @@
       <optional>true</optional>
     </dependency>
 
-    <!-- junit测试 -->
+    <!-- junit 测试 -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
